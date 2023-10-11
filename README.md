@@ -8,6 +8,9 @@
 
 # Solution Code 1
 ```javascript
+//html-code
+<div class="color" style="background-color:chocolate;" onclick="bgcolor('chocolate')"></div>
+
 //javascript-code
 function bgcolor(color){
     document.querySelector('.main-body').style.backgroundColor=color;
