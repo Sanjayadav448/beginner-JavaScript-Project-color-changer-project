@@ -6,9 +6,21 @@
 
 ![Alt text](p2.jpg?raw=true "Screen Shots")
 
-# Solution Code
+# Solution Code 1
 ```javascript
+//javascript-code
+function bgcolor(color){
+    document.querySelector('.main-body').style.backgroundColor=color;
+    document.querySelector('h1').style.color="white";
 
+}
+
+```
+
+
+# Solution Code 2
+```javascript
+//javascript-code
 const body=document.querySelector('body')
 const color=document.querySelectorAll('.color')
 color.forEach(function (btn) {    
