@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+.main-body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.color-body {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    text-align: center;
+
+}
