@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+</head>
+
+<body>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .main-body {
+
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .color {
+            margin: 10px;
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+        }
+
+        .color-body {
+            width: 900px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .body {
+            text-align: center;
+
+        }
+    </style>
+
+    <div class="main-body">
+        <div class="body">
+            <h1>Background-Color-Changer</h1>
+            <div class="color-body">
+                <div class="color" style="background-color: blueviolet;" onclick="bgcolor('blueviolet')"></div>
+
+                <div class="color" style="background-color:brown;" onclick="bgcolor('brown')">
+
+
+                </div>
+
+                <div class="color" style="background-color:chocolate;" onclick="bgcolor('chocolate')">
+
+
+                </div>
+
+                <div class="color" style="background-color:crimson;" onclick="bgcolor('crimson')">
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+
+function bgcolor(color){
+    document.querySelector('.main-body').style.backgroundColor=color;
+    document.querySelector('h1').style.color="white";
+
+}
+
+
+    </script>
+
+</body>
+
+</html>
